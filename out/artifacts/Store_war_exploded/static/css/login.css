@@ -1,0 +1,146 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #51499c, #24c6db);
+}
+
+.browser-happy {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #54c4e5;
+    z-index: 999;
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    max-width: 100%;
+    padding-top: 80px;
+}
+
+.container .main {
+    border-radius: 5px;
+    background: rgba(255, 255, 255, .08);
+    box-sizing: border-box;
+    padding: 50px 100px;
+}
+
+@media screen and (max-width: 640px) {
+    .container .main {
+        padding: 50px;
+    }
+}
+
+.main-title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 24px;
+    -webkit-box-reflect: below 0 -webkit-linear-gradient(top, rgba(250, 250, 250, 0), rgba(250, 250, 250, .0) 30%, rgba(250, 250, 250, 0.3));
+    box-reflect: below 0 -webkit-linear-gradient(top, rgba(250, 250, 250, 0), rgba(250, 250, 250, .0) 30%, rgba(250, 250, 250, 0.3));
+}
+
+.in-con {
+    position: relative;
+}
+
+.in-forget {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.in-forget a {
+    color: #efefef;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.in-forget a:hover {
+    color: #fff;
+    text-decoration: underline
+}
+
+.in-con i {
+    position: absolute;
+    display: block;
+    left: 14px;
+    top: 13px;
+    width: 14px;
+    height: 14px;
+    background: url('/static/img/login.png') no-repeat;
+    background-size: 100%;
+    background-position: 0 1px;
+    color: white;
+}
+
+.in-con i.key {
+    background-position: 0 -28px;
+    color: white;
+}
+
+.in-con input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    height: 40px;
+    margin-bottom: 24px;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, .08);
+    color: #fff;
+    outline: none;
+    padding-left: 40px;
+    font-size: 16px;
+    transition: all .3s linear;
+}
+
+.in-con input:focus {
+    color: #fff;
+    border-color: #fff;
+    background: rgba(255, 255, 255, .12);
+}
+
+.in-con input:focus+i {
+    background-position: 0 -14px;
+}
+
+.in-con input:focus+i.key {
+    background-position: 0 -42px;
+}
+
+input::-webkit-input-placeholder {
+    color: #cfcfcf;
+}
+
+.in-con input:focus::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.in-con .btn-login {
+    display: block;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(to bottom, #e0f0f0, #a1e4f7);
+    border-radius: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #2daecf;
+    text-decoration: none;
+}
+
+.in-con .btn-login:hover {
+    background: linear-gradient(to bottom, #fff, #c2f2ff);
+}
+.in-con .btn-login{
+    padding:  0 20px;
+    font-size: 20px;
+}

@@ -1,0 +1,26 @@
+.low{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    margin-top: 100px;
+}
+.head{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.mid{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    margin: -50px 0 0 -50px;
+}
+/*表格的mid*/
+.midb{
+    width: 300px;
+    position: absolute;
+    left: 45%;
+    top: 20%;
+    margin: -50px 0 0 -50px;
+}
